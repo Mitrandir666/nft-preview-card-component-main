@@ -1,0 +1,159 @@
+:root{
+    --background-color: hsl(217, 54%, 11%);
+    --main-color: hsl(216, 50%, 16%);
+    --title-color: hsl(0, 0%, 100%);
+    --line-color: hsl(215, 32%, 27%);
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    
+}
+
+*{
+    /*border: 2px solid red;*/
+    margin:0;
+    padding:0;
+    
+}
+
+body{
+display:flex;
+background-color: var(--background-color); 
+align-items:center;
+justify-content:center;
+height:100vh;
+width: 100vw; 
+}
+
+#main_and_fotter{
+    display: block;
+}
+
+main{
+    background-color: var(--main-color);
+    height:60vh;
+    width:330px;
+    padding:25px;
+    border-radius:10px;
+}
+
+
+#image_div{
+  width:320px;
+  height:320px;
+  border-radius: 10px;
+  margin:auto;
+}
+
+a:hover{
+    background-color:hsl(178, 100%, 50%);
+    z-index:1;
+}
+
+#equilibrium{
+    height:320px;
+    width:320px;
+    border-radius: 10px;
+    
+}
+
+h1{
+    margin:0;
+    color: var(--title-color);
+    font-family: 'Outfit';
+    font-size:1.45em;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+h1:hover{
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+#description{
+    color: var(--soft-blue);
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size:20px;
+    padding-top:20px;
+}
+
+#remained_time{
+    display:flex;
+    justify-content: space-between ;
+    padding-top:20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid  var(--line-color);
+}
+    
+#right_side img{
+   height:20px;
+}    
+
+
+#left_side{
+    display: flex;
+    color:var(--cyan);
+    font-size: 20px;
+    align-items: center;
+}
+#right_side{
+    display: flex;
+    color:var(--soft-blue);
+    font-family:'Outfit';
+    font-size:15px;
+    align-items:top;
+}
+
+
+#left_side img{
+    height: 20px;
+}
+#left_side p{
+    padding-left:10px;
+    font-family:'Outfit';
+}
+
+#right_side img{
+    height:20px;
+}
+#right_side p{
+    padding-left:10px;
+}
+
+#author p{
+    display:flex;
+    align-items: center;
+    color:var(--soft-blue);
+    font-family:'Outfit';
+    font-weight: 400;
+    padding-top:20px;
+}
+
+#avatar{
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius:50%;
+    margin-right: 10px;
+}
+
+#author_name{
+    color:var(--title-color);
+    padding-left:10px;
+}
+
+
+
+
+
+
+
+.attribution{
+    padding-left:25px;
+    align-self: center;
+    justify-self:center;
+    padding-top:50px;
+    width:320px;
+    color:steelblue;
+}
