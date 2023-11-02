@@ -29,7 +29,7 @@ width: 100vw;
 
 main{
     background-color: var(--main-color);
-    height:60vh;
+    height:68vh;
     width:320px;
     padding:25px;
     padding-bottom:35px;
@@ -175,7 +175,7 @@ h1:hover{
     cursor:pointer;
 }
 
-.footer{
+/**.footer{
     width:100%;
     text-align:center;
     padding-top:50px;
@@ -188,7 +188,7 @@ h1:hover{
     text-decoration: none;
     color: hsl(215, 51%, 30%);
 
-}
+}**/
 
 
 
